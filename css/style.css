@@ -1,0 +1,89 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #FFF7E2;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Brasileira{
+    background-image: url('../img/PlanoFundo.png ');
+}
+.Inicio{
+    background-image: url('../img/PlanoFundo2.png');
+}
+.Portuguesa{
+    background-image: url('../img/Plano\ de\ Fundo3.png');
+}
+nav {
+    color: white;
+    
+    display: flex;
+    height: 13vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/img01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 2rem;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center ;
+    font-size: 1.5em;
+    list-style: none;
+    color: #000000;
+    padding: 10px 30px;
+}
+.menu li {
+    width: 160px;
+    height: 42px;
+    background-color: #EC0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+.menu li:hover{
+    transition: 0.5s ease;
+    transform: scale(1.08);
+}
+.menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+.ativo{
+    background-color: #006601    !important;
+}
+.ali{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textBox{
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: #000000;
+    background-color: #FFFDEF;
+    width: 75dvw;
+    font-size: 1.7rem;
+}
+*h2{
+    text-align: center;
+}
+.Titulo{
+    display: flex;
+    justify-content: center;
+}
+.subText{
+    margin-left: 50px;
+}
